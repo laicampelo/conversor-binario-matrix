@@ -23,6 +23,7 @@
 * Inserir o número binário para conversão;
 * Clicar no botão 'converter';
 * Visualizar o resultado no card abaixo.
+* <a href="https://startling-wisp-0cbc58.netlify.app/">Teste o projeto.</a>
 <img src="./demonstracao.png">
 
 ### Como executar o projeto
