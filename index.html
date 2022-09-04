@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Conversor de Binário</title>
+</head>
+<body style="background:url(/matrix-code.gif);">
+    <main>
+        <section>
+                <div  class="card shadow" style="background-color:#16301d;color:rgb(55, 190, 42);width: 22rem;margin:12rem auto; text-align: center;">
+                    <div class="card-header">
+                        <h2 class="card-title">Conversor Binário</h2>
+                        <label for="usuario" class="mb-2">Insira um número decimal</label>
+                        <input type="text" id="usuario" name="usuario" value="" class="rounded-1 p-1" placeholder="ex.:123" style="background-color:#55d97abb; color:#FFF; font-weight: 600;">
+                        
+                        <button class="btn btn-success mb-1" onclick="enviar()">Converter</button>
+                    </div>
+                    <div class="card-body">
+                        <p id="resultado" style="text-align:center;"></p>
+                    </div>
+                    
+                </div>
+        </section>
+    </main>
+    <script src="conversor.js"></script>
+</body>
+</html>
